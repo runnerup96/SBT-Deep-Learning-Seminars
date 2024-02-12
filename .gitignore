@@ -1,0 +1,19 @@
+.ipynb_checkpoints
+.idea/
+cifar-10-batches-py
+*.html
+*.tar.gz
+__pycache__
+wandb
+# HW №1
+Numpy Network/Numpy_NN/src/nn/activations/relu.py
+Numpy Network/Numpy_NN/src/nn/activations/sigmoid.py
+Numpy Network/Numpy_NN/src/nn/activations/tanh.py
+Numpy Network/Numpy_NN/src/nn/layers/batch_norm.py
+Numpy Network/Numpy_NN/src/nn/layers/dropout.py
+Numpy Network/Numpy_NN/src/nn/layers/linear.py
+Numpy Network/Numpy_NN/src/nn/loss_functions/hinge_loss.py
+Numpy Network/Numpy_NN/src/nn/module/parameters.py
+Numpy Network/Numpy_NN/src/optimization/adam_optimizer.py
+Numpy Network/Numpy_NN/src/training/train.py
+runs
