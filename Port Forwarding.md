@@ -22,3 +22,7 @@ jupyter lab --no-browser --port=8888
 ssh -Y -N -L localhost:888X:localhost:8888 username@hostname
 ```
 6. Copy link in stdout of step 4 and paste into web browser
+7. Now on remote server via ssh
+```
+jupyter lab --no-browser --port=8888
+```
