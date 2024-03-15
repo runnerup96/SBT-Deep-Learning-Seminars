@@ -21,3 +21,5 @@ pip install -r requirements.txt
 * Пример проекта по глубокому обучению с лекции **Введение с DL** - https://github.com/runnerup96/minGPT
 * Введение в PyTorch в глубоком обучении - `PyTorch tutorial/PyTorch intro.ipynb`
 * Нейронная сеть на Numpy - `Numpy Network`
+* Сверточные нейронные сети - `CNN`
+* Задача сегментации - `Segmentation`
