@@ -17,3 +17,6 @@ Numpy Network/Numpy_NN/src/nn/module/parameters.py
 Numpy Network/Numpy_NN/src/optimization/adam_optimizer.py
 Numpy Network/Numpy_NN/src/training/train.py
 runs
+.DS_Store
+*.txt
+*.zip
