@@ -23,3 +23,5 @@ pip install -r requirements.txt
 * Нейронная сеть на Numpy - `Numpy Network`
 * Сверточные нейронные сети - `CNN`
 * Задача сегментации - `Segmentation`
+* Словарные эмбеддинги(word2vec, glove) - `word2vec`
+* Машинный перевод - https://github.com/runnerup96/pytorch-machine-translation
