@@ -25,3 +25,4 @@ pip install -r requirements.txt
 * Задача сегментации - `Segmentation`
 * Словарные эмбеддинги(word2vec, glove) - `word2vec`
 * Машинный перевод - https://github.com/runnerup96/pytorch-machine-translation
+* Трансформеры - `Transformers`
