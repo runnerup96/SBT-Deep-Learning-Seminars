@@ -62,13 +62,14 @@ pip install -r requirements.txt
 
 #### 3. **Сверточные нейронные сети** (`CNN/`)
 - Архитектуры CNN (LeNet, AlexNet, VGG, ResNet)
-- Реализация на PyTorch и Keras
-- Аугментация данных с Albumentations
+- Реализация на PyTorch
+- Аугментация данныx
 - PyTorch Lightning для организации кода
 - **Файлы**:
   - `KerasCNNv1.ipynb` - базовая CNN на Keras
   - `KerasCNNv2.ipynb` - продвинутая CNN на Keras
-  - `TorchCNN.ipynb` - CNN на PyTorch
+  - `seminar_cnn_1.ipynb` - CNN на PyTorch
+  - `seminar_cnn_2.ipynb` - Арихитектуры CNN на PyTorch
   - `lightning.ipynb` - PyTorch Lightning
   - `albumentations.ipynb` - аугментация данных
 
