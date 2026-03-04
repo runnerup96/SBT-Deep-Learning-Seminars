@@ -66,8 +66,6 @@ pip install -r requirements.txt
 - Аугментация данныx
 - PyTorch Lightning для организации кода
 - **Файлы**:
-  - `KerasCNNv1.ipynb` - базовая CNN на Keras
-  - `KerasCNNv2.ipynb` - продвинутая CNN на Keras
   - `seminar_cnn_1.ipynb` - CNN на PyTorch
   - `seminar_cnn_2.ipynb` - Арихитектуры CNN на PyTorch
   - `lightning.ipynb` - PyTorch Lightning
