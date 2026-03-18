@@ -71,26 +71,32 @@ pip install -r requirements.txt
   - `lightning.ipynb` - PyTorch Lightning
   - `albumentations.ipynb` - аугментация данных
 
-#### 4. **Рекуррентные нейронные сети** (`RNN implementation/`)
+#### 4. **Сегментация изображений** (`Segmentation/`)
+- U-Net архитектура для сегментации
+- Практическая реализация на PyTorch
+- **Файл**: `unet_pytorch.ipynb`
+
+#### 5. **Детекция объектов** (`Detection/`)
+- Two-stage и One-stage модели для детекции объектов на изображениях
+- Обучение модели из семейства R-CNN на PyTorch
+- Практика обучения One-stage модели
+- **Файл**: `object_detection.ipynb`
+
+#### 6. **Рекуррентные нейронные сети** (`RNN implementation/`)
 - Реализация LSTM с нуля
 - Стратегии сэмплирования для генерации текста
 - **Файлы**:
   - `LSTM.ipynb` - реализация LSTM
   - `Sampling strategies.ipynb` - стратегии сэмплирования
 
-#### 5. **Сегментация изображений** (`Segmentation/`)
-- U-Net архитектура для сегментации
-- Практическая реализация на PyTorch
-- **Файл**: `unet_pytorch.ipynb`
-
-#### 6. **Словарные эмбеддинги** (`word2vec/`)
+#### 7. **Словарные эмбеддинги** (`word2vec/`)
 - Реализация Word2Vec с нуля
 - Визуализация эмбеддингов с помощью Gensim
 - **Файлы**:
   - `word2vec_implementation.ipynb` - реализация Word2Vec
   - `Gensim word vector visualization.ipynb` - визуализация
 
-#### 7. **Трансформеры** (`Transformers/`)
+#### 8. **Трансформеры** (`Transformers/`)
 - Механизм внимания (Attention)
 - BPE токенизация
 - Онлайн softmax
@@ -99,7 +105,7 @@ pip install -r requirements.txt
   - `BPE_tokenization_demo.ipynb` - BPE токенизация
   - `Online softmax.ipynb` - онлайн softmax
 
-#### 8. **Большие языковые модели** (`LLMs/`)
+#### 9. **Большие языковые модели** (`LLMs/`)
 - Тюнинг BERT и T5
 - Законы масштабирования (Scaling Laws)
 - **Файлы**:
