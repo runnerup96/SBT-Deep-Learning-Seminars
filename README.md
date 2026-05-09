@@ -63,11 +63,11 @@ pip install -r requirements.txt
 #### 3. **Сверточные нейронные сети** (`CNN/`)
 - Архитектуры CNN (LeNet, AlexNet, VGG, ResNet)
 - Реализация на PyTorch
-- Аугментация данныx
+- Аугментация данных
 - PyTorch Lightning для организации кода
 - **Файлы**:
   - `seminar_cnn_1.ipynb` - CNN на PyTorch
-  - `seminar_cnn_2.ipynb` - Арихитектуры CNN на PyTorch
+  - `seminar_cnn_2.ipynb` - Архитектуры CNN на PyTorch
   - `lightning.ipynb` - PyTorch Lightning
   - `albumentations.ipynb` - аугментация данных
 
@@ -113,6 +113,13 @@ pip install -r requirements.txt
   - `t5_tuning.ipynb` - тюнинг T5
   - `Scaling laws.ipynb` - законы масштабирования
 
+#### 10. **Vision Transformers** (`Visual Transformers/`)
+- Адаптация архитектуры Transformer для задач компьютерного зрения
+- Основные компоненты ViT: токенизация патчей, позиционные эмбеддинги, class-токен, кодировщик Transformer
+- Регуляризация (Stochastic Depth / DropPath, Dropout, Label Smoothing)
+- Практика обучения ViT на CIFAR-10: аугментации, warm-up + cosine LR, визуализация карт внимания
+- **Файл**: `vit_seminar.ipynb`
+
 ### 🏠 Домашние задания
 
 #### **HW1: Нейронная сеть на NumPy** (`HW1-Numpy-Network/`)
@@ -154,11 +161,13 @@ jupyter notebook
 1. **PyTorch Tutorial** - основы фреймворка
 2. **Numpy Network** - понимание принципов работы нейронных сетей
 3. **CNN** - сверточные нейронные сети
-4. **RNN implementation** - рекуррентные сети
-5. **word2vec** - эмбеддинги
-6. **Transformers** - современные архитектуры
-7. **LLMs** - большие языковые модели
-8. **Segmentation** - специализированные задачи
+4. **Segmentation** - сегментация изображений (U-Net)
+5. **Detection** - детекция объектов
+6. **RNN implementation** - рекуррентные сети
+7. **word2vec** - эмбеддинги
+8. **Transformers** - механизм внимания и токенизация
+9. **LLMs** - большие языковые модели
+10. **Visual Transformers** - Transformer-архитектуры в компьютерном зрении
 
 ## 🔗 Дополнительные ресурсы
 
