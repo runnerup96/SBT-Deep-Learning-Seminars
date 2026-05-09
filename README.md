@@ -120,6 +120,13 @@ pip install -r requirements.txt
 - Практика обучения ViT на CIFAR-10: аугментации, warm-up + cosine LR, визуализация карт внимания
 - **Файл**: `vit_seminar.ipynb`
 
+#### 11. **Мультимодальные модели и VLM** (`MLLMs/`)
+- Таксономия архитектур VLM: late-fusion (CLIP) vs. non-tokenized early fusion (BLIP-2, Qwen-VL)
+- CLIP: контрастивное обучение, объяснимость через gradient × attention, семантический поиск
+- BLIP-2: Q-Former, zero-shot captioning и VQA с замороженными ViT и LLM
+- Qwen-VL/Qwen-Omni: чат-стиль VLM, OCR и визуальный grounding
+- **Файл**: `seminar_vlm.ipynb`
+
 ### 🏠 Домашние задания
 
 #### **HW1: Нейронная сеть на NumPy** (`HW1-Numpy-Network/`)
@@ -168,6 +175,7 @@ jupyter notebook
 8. **Transformers** - механизм внимания и токенизация
 9. **LLMs** - большие языковые модели
 10. **Visual Transformers** - Transformer-архитектуры в компьютерном зрении
+11. **MLLMs** - мультимодальные модели (CLIP, BLIP-2, Qwen-VL)
 
 ## 🔗 Дополнительные ресурсы
 
